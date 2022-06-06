@@ -1,0 +1,83 @@
+.wrap{
+    width: 350px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 100px auto;
+}
+
+.header{
+    height: 40px;   
+    display: flex;
+    align-items: center;
+}
+
+.round{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/propile.PNG);
+    background-size: cover;
+    background-position: right;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.header p{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;      
+}
+
+
+.blue_icon{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(121, 174, 255);
+    margin-left: 10px;
+}
+
+.icon_wrap{
+    height: 30px;    
+    margin-top: 5px;
+    display: flex;    
+    align-items: center;
+}
+
+.icon_wrap .bx{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.icon_wrap .bookmark .bx-bookmark{
+    margin-left: 205px;
+}
+
+.bg_img{
+    width: 350px;
+    height: 370px;    
+    background-image: url(../img/hw_bg.jpg);
+    background-size: cover;
+}
+
+.like p{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.coenffl{
+    display: flex;
+    margin-left: 10px;
+}
+
+.id{
+    font-size: 14px;
+    font-weight: 700;
+}  
+
+.con{
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 5px;
+}
